@@ -9,11 +9,21 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var myView: MyView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
+        
+        myView.buttonTap = { [weak self] button in
+            self?.buttonTap(button)
+        }
 
+    }
+    
+    func buttonTap(_ sender: UIButton) {
+        print("Button was clicked in MyView")
+        myView.backgroundColor = .black
+    }
 
 }
 

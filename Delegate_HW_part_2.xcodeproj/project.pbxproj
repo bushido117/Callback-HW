@@ -13,6 +13,7 @@
 		72739D3628B64DAA00DE88F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72739D3428B64DAA00DE88F6 /* Main.storyboard */; };
 		72739D3828B64DAC00DE88F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72739D3728B64DAC00DE88F6 /* Assets.xcassets */; };
 		72739D3B28B64DAC00DE88F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72739D3928B64DAC00DE88F6 /* LaunchScreen.storyboard */; };
+		72739D4328B64EBD00DE88F6 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72739D4228B64EBD00DE88F6 /* MyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		72739D3728B64DAC00DE88F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72739D3A28B64DAC00DE88F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72739D3C28B64DAC00DE88F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72739D4228B64EBD00DE88F6 /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				72739D2E28B64DAA00DE88F6 /* AppDelegate.swift */,
 				72739D3028B64DAA00DE88F6 /* SceneDelegate.swift */,
 				72739D3228B64DAA00DE88F6 /* ViewController.swift */,
+				72739D4228B64EBD00DE88F6 /* MyView.swift */,
 				72739D3428B64DAA00DE88F6 /* Main.storyboard */,
 				72739D3728B64DAC00DE88F6 /* Assets.xcassets */,
 				72739D3928B64DAC00DE88F6 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72739D4328B64EBD00DE88F6 /* MyView.swift in Sources */,
 				72739D3328B64DAA00DE88F6 /* ViewController.swift in Sources */,
 				72739D2F28B64DAA00DE88F6 /* AppDelegate.swift in Sources */,
 				72739D3128B64DAA00DE88F6 /* SceneDelegate.swift in Sources */,
